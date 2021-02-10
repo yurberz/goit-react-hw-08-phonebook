@@ -109,8 +109,10 @@ class RegisterForm extends Component {
       <Div>
         <div className="formWrapper">
           <h1>Phonebook</h1>
-          <h2>Welcome to the Phonebook App!</h2>
-          <p>Save your contacts. Don't keeped in head.</p>
+          <h2>Welcome to the Phonebook App</h2>
+          <p>
+            "<b>Save your contacts!</b> Don't keeped in head."
+          </p>
           <form onSubmit={this.handleSubmit}>
             <label>
               <input
