@@ -16,7 +16,7 @@ const register = (user) => async (dispatch) => {
   dispatch(authActions.registerRequest());
 
   try {
-    const { data } = await axios.post("/user/signup", user);
+    const { data } = await axios.post("/users/signup", user);
 
     dispatch(authActions.registerSuccess(data));
   } catch (error) {
