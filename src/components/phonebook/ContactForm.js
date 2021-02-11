@@ -16,6 +16,7 @@ const Div = styled.div`
   border-radius: 4px;
 
   h1 {
+    margin: 0;
     margin-bottom: 30px;
     font-size: 42px;
     font-style: italic;
